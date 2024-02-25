@@ -1,0 +1,12 @@
+NAV
+Home - Order - About - Contact - "Other Pages"
+
+Home screen with Carousel and scroll from products, about and Contact at the end
+
+Create banner with pictures slide - Carousel
+
+Order page -- play around wiht the options from Bootstrap - there are some templates for shopping
+
+About - grab details from the Google form regardin the wording about the bread journey
+
+Contact page - copy details from the REiki page.
