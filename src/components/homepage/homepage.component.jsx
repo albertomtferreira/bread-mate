@@ -6,7 +6,7 @@ import About from "../about/about.component";
 import Order from "../order/order.component";
 import Contact from "../contact/contact.component";
 import Footter from "../footer/footer.component";
-import Carousel from "../carousel/carousel.component";
+import CarouselBanner from "../carousel/carousel.component";
 import OrderHomepage from "../order_homepage/order_homepage.component";
 
 export default function Homepage() {
@@ -14,7 +14,7 @@ export default function Homepage() {
     <>
       <section className="bg-light p-5 min-vh-100">
         <div className="container-fluid">
-          <Carousel />
+          <CarouselBanner />
           <OrderHomepage />
           <About />
           <Contact />
