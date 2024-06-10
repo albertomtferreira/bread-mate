@@ -22,7 +22,7 @@ const Contact = () => {
           window.location.reload(false);
         },
         () => {
-          alert("Failed to send the message, please try again");
+          alert("Failed to send the message, please try again!");
         }
       );
   };
