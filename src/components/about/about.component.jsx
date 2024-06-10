@@ -4,7 +4,7 @@ export default function About() {
       <div className="container-fluid bg-light pt-5 d-flex flex-column align-items-center min-vh-75">
         <h5 align="center">
           Indulge in the tantalizing aroma of freshly baked breadsticks, crafted
-          with the finest ingredients and delivered right to your doorstep.
+          with the finest ingredients and delivered right to your doorstep!
         </h5>
         <p className="text-justify lead m-4">
           Each breadstick is meticulously shaped and then carefully frozen to
