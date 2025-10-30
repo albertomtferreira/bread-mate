@@ -1,0 +1,26 @@
+.featured-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e0e0e0;
+  overflow: hidden;
+}
+
+.featured-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15) !important;
+}
+
+.featured-product-image {
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.featured-card:hover .featured-product-image {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .featured-product-image {
+    height: 200px;
+  }
+}

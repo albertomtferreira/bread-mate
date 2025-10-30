@@ -1,0 +1,44 @@
+.hero-section {
+  padding: 80px 0 60px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.min-vh-50 {
+  min-height: 50vh;
+}
+
+.products-section {
+  background: white;
+}
+
+.contact-section {
+  background: #f8f9fa;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Improved button spacing */
+.btn-lg {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 991px) {
+  .hero-section {
+    padding: 60px 0 40px;
+  }
+
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+}
